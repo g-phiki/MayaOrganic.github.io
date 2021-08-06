@@ -2,27 +2,24 @@ body {    font-family: 'Nunito';}
 a, a:hover, a:active {
     text-decoration: none;
     color: white;}
-.WhoWeAre {
+.Process {
     color: black;
     width: 100%;
     background: #E5E5E5;
     display: flex;
-    flex-wrap: wrap;}
-.Who {
-    margin: 50px;
-    margin-left: 120px;}
-.first_img {position: absolute;}
-.second_img {
+    flex-wrap: wrap;
+    padding: 100px;}
+.pro {margin: auto;}
+.skin {position: absolute;}
+.stem {
     position: relative;
-    top: 20px;
-    left: -20px;}
-.We {margin: 50px;}
-h2 {
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 70px;
-    text-align: left;}
-.We p {font-size: 24px;}
+    top: 36px;
+    left: 35px;}
+h3 {
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 900;}
+h3.ex {margin-left: -40px;}
 
 
 @media screen and (max-width: 1024px) {}
@@ -30,14 +27,9 @@ h2 {
 @media screen and (max-width: 425px) {}
 @media screen and (max-width: 414px) {}
 @media screen and (max-width: 411px) {
-    h2 {font-size: 30px;}
-  .Who {margin: 10px;
-    margin-left: 40px;}
-  .first_img {width: 240px;}
-  .second_img {
-    width: 260px;
-    top: 10px;
-    left: -10px;}
+    .Process {padding: 60px;}
+    .pro {margin-top: 0px;}
+    h3.ex {margin-left: 0px;}
   }
 @media screen and (max-width: 375px) {}
 @media screen and (max-width: 360px) {}

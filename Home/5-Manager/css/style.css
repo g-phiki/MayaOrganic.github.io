@@ -1,0 +1,65 @@
+body {    font-family: 'Nunito';}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: white;}
+.Manager {
+    color: black;
+    width: 100%;
+    background-image: url("../data/images/pngwing%207.png");
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;}
+.Man {margin-right: 80px;}
+.f_img {position: absolute;}
+.s_img {
+    position: relative;
+    top: 40px;
+    left: 40px;}
+.Age {margin: 50px;}
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: left;
+    margin-bottom: 0px;}
+.Age p {font-size: 20px;}
+.but {
+	background-color: #0C5C4C;
+    color: white;
+    border: 2px solid #0C5C4C;
+    padding: 6px;
+    font-size: 15px;
+    font-weight:900;
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;}
+.man_up {
+	margin-left: 150px;;}
+
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 425px) {
+    .Manager {padding: 20px;}
+  .Man, .Age {margin: 0px;}
+  h2 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 80px;}
+  .Man {
+    margin: 10px;
+    margin-left: 40px;}
+  .f_img {width: 200px;
+    left: 30px;}
+  .s_img {
+    width: 200px;
+    top: 15px;
+    left: -10px;}
+  .man_up {margin-left: 50px;}
+}
+@media screen and (max-width: 414px) {}
+@media screen and (max-width: 411px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) {}
+@media screen and (max-width: 320px) {}
+   
