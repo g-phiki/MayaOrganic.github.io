@@ -2,24 +2,46 @@ body {    font-family: 'Nunito';}
 a, a:hover, a:active {
     text-decoration: none;
     color: white;}
-.WhoWeAre {
+.Shop {
     color: black;
     width: 100%;
     background-color: #E5E5E5;
     background-image: url("../data/images/pngwing%207.png");
-    display: flex;
-    flex-wrap: wrap;}
-.Who {
-    margin: 50px;
-    margin-left: 120px;}
-.Who img {margin: 10px;}
-.We {margin: 50px;}
-h2 {
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 70px;
-    text-align: left;}
-.We p {font-size: 24px;}
+    padding: 50px;}
+h2 {font-weight: 900;}
+.cap {margin: 50px;}
+.pale {
+    width: 340px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;}
+.pale img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;}
+.lot {
+	background-color: #0C5C4C;
+    color: white;
+    border: 2px solid #0C5C4C;
+    padding: 6px;
+    font-size: 15px;
+    font-weight:500;
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom: 15px;}
+h4 {
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 900;
+    text-align: center;}
+p {
+    font-size: 10px;
+    font-weight: 700;
+    text-align: left;
+    padding: 5px;}
 
 
 @media screen and (max-width: 1024px) {}
@@ -27,11 +49,10 @@ h2 {
 @media screen and (max-width: 425px) {}
 @media screen and (max-width: 414px) {}
 @media screen and (max-width: 411px) {
-     h1 {
-    font-size: 47px;
-    line-height: 45px;
-    margin: 40px;}
-  .btn {margin: 40px;}
+    .Shop {padding: 0px;}
+    .cap {margin: 20px;}
+    .lot {margin-left: 55px;}
+    .pale {margin-top: 20px;}
   }
 @media screen and (max-width: 375px) {}
 @media screen and (max-width: 360px) {}
