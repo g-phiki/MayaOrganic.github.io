@@ -1,0 +1,110 @@
+body {    font-family: 'Nunito';}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: white;}
+.shop {width:1350px;}
+.wing_1 {
+    background: #F8F8F8;
+    padding-top: 40px;
+    padding-left: 55px;}
+.board {position: fixed;}
+.board_green {
+    background: #04544C;
+    width: 130px;
+    height: 248px;
+    color: white;
+    font-size: 12px;}
+.board_green p {
+    line-height: 12px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: -1px;}
+.board_orange {
+    margin-top: 20px;
+    background: #FBB844;
+    width: 130px;
+    height: 380px;
+    padding-top: 345px;
+    padding-left: 20px;}
+.b_shop {padding-left: 150px;}
+.b_shop .row {margin-right: 30px;}
+.l_goto {
+	background-color: #DDDDDD;
+    color: white;
+    border: 2px;
+    padding: 6px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;}
+.ex {background-color: #0C5C4C;}
+.scroll {
+    width: 890px;
+    height: 580px;}
+.list {
+    margin: 5px;
+    margin-bottom: -20px;}
+.only {margin-left: 15px;}
+.list_img {
+    width: 200px;
+    height: 200px;}
+h7 {
+    font-size: 14px;
+    font-weight: 600;}
+.pro {
+    margin-top: 10px;
+    color: #0C5C4C;
+    font-weight: bold;}
+.wing_2 {
+    width: 260px;
+    position: fixed;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 30px}
+.t_com {
+    background-color: #0C5C4C;
+    color: white;
+    border: 2px #0C5C4C;
+    padding: 15px;
+    padding-top: 20px;
+    margin-bottom: 10px;}
+.t_com img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;}
+.t_c {
+    font-size: 11px;
+    margin-bottom: 0px;}
+.p_type {margin-bottom: 5px;}
+.p_type img {
+    width: 230px;
+    height: 230px;}
+.pet {margin-left: -5px;}
+.pet img {
+    width: 38px;
+    height: 38px;
+    margin: 5px;}
+.horm {font-size: 10px;}
+.add_cart {
+	background-color: #0C5C4C;
+    color: white;
+    border: 2px solid #0C5C4C;
+    padding: 6px;
+    font-size: 15px;
+    font-weight:900;
+    text-align: center;
+    width: 200px;
+    margin-top: 10px;}
+
+
+
+
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 425px) {}
+@media screen and (max-width: 414px) {}
+@media screen and (max-width: 411px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) {}
+@media screen and (max-width: 320px) {}
+   
