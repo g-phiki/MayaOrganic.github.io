@@ -1,0 +1,43 @@
+body {font-family: 'Nunito';}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: white;}
+.box {
+    width: 600px;
+    height: 400px;
+    background: white;
+    margin: auto;}
+.SignIn {
+    width: 400px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;}
+.SignIn img {width: 400px;}
+h3 {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 900;}
+.btn {
+    font-size: 15px;
+    background-color: #0C5C4C;
+    color: white;
+    width: 200px;}
+
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 425px) {
+    .box {width: 300px;}
+    h3 {font-size: 20px;}
+    .SignIn {width: 250px;}
+    .SignIn img {width: 280px;}
+    .btn {
+        font-size: 8px;
+        width: 100px;}
+}
+@media screen and (max-width: 414px) {}
+@media screen and (max-width: 411px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) {}
+@media screen and (max-width: 320px) {}
+   
