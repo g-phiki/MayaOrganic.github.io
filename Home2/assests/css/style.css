@@ -9,13 +9,32 @@ body {
   font-family: "Nunito", sans-serif;
 }
 section {
-  padding: 3rem 0;
+  padding: 5rem 0;
+  position: relative;
 }
 
 h1 {
-  font-size: 63px;
+  font-size: 60px;
   line-height: 76px;
   font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 700;
+}
+p,
+li {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
 }
 
 img {
@@ -26,35 +45,176 @@ img {
 
 /* dashboard */
 .dashboard {
-  background: url("../Images/dashboardBack2.png");
+  background: url("../Images/dashboardbackImage.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: unset;
-  /* margin-top: 30px; */
+  position: relative;
   padding-bottom: 1rem;
-  height: 83vh;
+  overflow: hidden;
+  padding-bottom: 0;
+  /* height: 90vh; */
 }
-
-.dashboard .signup {
+button {
+  width: 100%;
+}
+.button-sm {
+  padding: 5px;
+}
+.signup {
   background: #0c5c4c;
   color: #fff;
 }
-.dashboard button {
+button {
   padding: 15px 2rem;
   font-size: 25px;
   font-weight: 700;
   border-radius: 10px;
   border: none;
-  width: 300px;
+  /* width: 300px; */
+  color: #0c5c4c;
   border: 3px solid #0c5c4c;
 }
 
 .mb-6 {
   margin-bottom: 5rem;
 }
+.dashboard .backImage {
+  position: absolute;
+  right: 190px;
+  top: -4px;
+  bottom: 0;
+  z-index: 0;
+}
 /* .image {
   background: url("../Images/dashboardImage.png");
 } */
+/*  */
+.whoweare {
+  background: #e5e5e5;
+  padding: 7rem 0;
+}
+.imageWrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.sideImage {
+  width: 80px;
+  height: 80px;
+  bottom: -27px;
+}
+.rightside {
+  position: absolute;
+
+  right: 0;
+}
+.leftside {
+  position: absolute;
+
+  left: 0;
+  width: 60px;
+  height: 60px;
+}
+/*  */
+.whatwedo {
+  padding: 7rem 0;
+  background: url("../Images/pngwing\ 3.png");
+}
+
+.whatwedo .imageWrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+.service {
+  background: #e5e5e5;
+}
+.service .text-center div {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 30px;
+  border-radius: 50%;
+  background: #04544c;
+}
+/*  */
+.manager {
+  background: url("../Images/pngwing\ 8.png");
+  background-position: top;
+  background-size: cover;
+}
+.manager .imageWrapper {
+  min-width: 250px;
+  width: 100%;
+  max-width: 400px;
+}
+/* 
+ */
+.shop {
+  background: #e5e5e5;
+}
+.shop .card .imageWrapper {
+  position: relative;
+  padding-top: 230px;
+  width: 100%;
+}
+
+.shop .card .imageWrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+/*  */
+footer {
+  position: relative;
+}
+footer .logo {
+  width: 60%;
+  margin: 0 auto;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #0a142f;
+}
+footer ul li {
+  font-size: 16px;
+}
+footer input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+footer .footerimage {
+  width: 15%;
+  position: absolute;
+  /* left: 50%; */
+  bottom: -100px;
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard .backImage {
+    position: absolute;
+    right: -190px;
+    top: 10px;
+    bottom: 0;
+    z-index: 0;
+  }
+  p,
+  li {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
 
 @media screen and (max-width: 400px) {
   h1 {
@@ -69,5 +229,26 @@ img {
     border: none;
     width: 200px;
     border: 2px solid #0c5c4c;
+  }
+  .dashboard .title br {
+    /* display: none; */
+    /* .br {
+      display: none;
+    } */
+  }
+  .mb-6 {
+    margin-bottom: 3rem;
+  }
+  .imageWrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .whoweare {
+    background: #e5e5e5;
+    padding: 4rem 0;
   }
 }
