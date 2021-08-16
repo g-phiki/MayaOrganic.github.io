@@ -11,23 +11,29 @@
 
   <body>
       <div class="box">
-        <div class="SignIn">
-            <h2>Login</h2>
-            <p>Welcome back you’ve been missed!</p><br>
-            <form align=left>
-                <label>Email Address</label><br>
-                <input class="search" type="search" placeholder="Firstfounders@gmail.com"/><br><br>
-                <label>Password</label><br>
-                <input class="search" type="search" placeholder="Enter Your Password"/>
-                <img style="margin-left: -40px; margin-top: 0px;" src="./data/images/Group.png" />
-            </form><br>
-            <div class="right">
-                <a href="/"><p>Forgot Password?</p></a><br>
+        <div class="row SignIn">
+            <div class="side_a">
+            
             </div>
-            <a href="/" class="btn">Sign in</a>
-            <div class="row last">
-                <p>Don’t have an account?</p>
-                <a class="sign_up" href="/"><p>Sign up</p></a>
+            <div class="side_b">
+                <br>
+                <h2>Sign up</h2>
+                <div class="left">
+                    <p>Make Payment of ₦5,350.00 Signup fee  to finalise your<br>registration.</p>
+                    <p>Select Payment Method</p>
+                    <input style="width: 20px;" type="radio">
+                    <img src="./data/images/logo_(2)%201.png" />
+                    <input style="width: 20px;" type="radio">
+                    <img src="./data/images/Paystack_Logo%201.png" /><br>
+                    <label class="l_n">First name</label><label>Last name</label><br>
+                    <input class="line first_name" type="text"/><input class="last_name" type="text"/><br>
+                    <label>Card Number</label><br>
+                    <input class="go card_number" type="tel"/><br>
+                    <label class="f_n">Expiring Date</label><label>CVV</label><br>
+                    <select class="expire"></select>
+                    <select class="cvv"></select><br>
+                </div>
+                <a href="/" class="btn nerd">Next</a>
             </div>
         </div>
       </div>
