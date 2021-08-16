@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("/fonts/Circular\ Std\ Font.otf");
+}
+body {
+  /* font-family: "Nunito", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Mulish", sans-serif;
+  /* font-family: myFirstFont; */
+  /* font-size: ; */
+}
+
+.button-info {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.button-primary {
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+  background: #04544c;
+  color: white;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 14px;
+}
+select {
+  padding: 5px 10px;
+}
+
+.bg-light {
+  background: #ffffff !important;
+}
+.size {
+  width: 100%;
+}
+.btn-large {
+  padding: 15px;
+}
+
+/* .imageWrapper {
+  flex: 1;
+} */
+.details {
+  flex: 2;
+}
+.card {
+  border-radius: 5px;
+  border: 0.652893px solid #dddfe5 !important;
+}
+
+@media screen and (max-width: 480px) {
+  p {
+    font-size: 12px;
+  }
+}

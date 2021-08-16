@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Top nav -->
+    <!-- -->
+    <div class="main mb-4">
+      <!-- Main Menu -->
+      <div class="mainmenu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="./assest/image/Maya Organics -PNG 1.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Shop <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Order</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Payments</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Profile</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="mainmenu-sidebar d-flex px-0 px-md-2 pt-5">
+          <div class="main-side container">
+            <div class="h-100">
+              <div
+                class="card mb-3 py-2"
+                style="background-color: #04544c; color: white"
+              >
+                <div class="card-body d-flex flex-column py-2">
+                  <p class="card-subtitle mb-2">All ></p>
+                  <p class="card-subtitle mb-2">Soup</p>
+                  <p class="card-subtitle mb-2">Fitness</p>
+                  <p class="card-subtitle mb-2">Skincare</p>
+                  <p class="card-subtitle mb-2">Hair Care</p>
+                  <p class="card-subtitle mb-2">Baby Care</p>
+                  <p class="card-subtitle mb-2">Female Healthcare</p>
+                </div>
+              </div>
+
+              <div
+                class="card mb-3"
+                style="background-color: #fbb844; height: 75%"
+              >
+                <div class="card-body d-flex flex-column py-2">
+                  <!-- <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text ">
+                    ₦ 4,500 Some quick example text to build on the card title
+                    and make up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carts container-fluid">
+            <!--  -->
+            <div class="d-flex justify-content-between border-bottom mb-3">
+              <h4>Shopping Cart</h4>
+              <h4>8 Items</h4>
+            </div>
+
+            <div>
+              <div class="title d-none d-md-block">
+                <div class="row">
+                  <div class="col-5">
+                    <p>Product details</p>
+                  </div>
+                  <div class="col-7">
+                    <div class="row justify-content-around align-items-center">
+                      <div class="col-4">
+                        <p class="ml-4">Quantity</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="ml-3">Price</p>
+                      </div>
+                      <div class="col-4">
+                        <p>Total</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card h-100 mb-3">
+                <!-- <div class="card-header">Header</div> -->
+                <div class="card-body p-3 m-1">
+                  <div class="row">
+                    <div class="col-11 col-sm-5">
+                      <div class="d-flex">
+                        <div class="imageWrapper">
+                          <img src="./assest/image/product.png" alt="" />
+                        </div>
+                        <div class="ml-3 product-details">
+                          <div class="mb-2">
+                            <h4 class="mb-0 productname">YARNYA</h4>
+                          </div>
+                          <div class="mb-2">
+                            <p class="mb-0 productcat">Skin Care</p>
+                          </div>
+                          <div class="mb-2">
+                            <p class="mb-0 remove">Remove</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-7 border py-3">
+                      <div
+                        class="d-flex justify-content-around align-items-center"
+                      >
+                        <div class="col-4">
+                          <p class="mb-0 d-flex quality align-items-center">
+                            <button class="mr-2 control">-</button>
+                            <span class="p-1 unit">100</span>
+                            <button class="ml-2 control">+</button>
+                          </p>
+                        </div>
+                        <div class="col-4">
+                          <h4 class="price p-1">₦ 7,000</h4>
+                        </div>
+                        <div class="col-4">
+                          <h4 class="price">₦ 700,000</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card h-100 mb-3">
+                <!-- <div class="card-header">Header</div> -->
+                <div class="card-body p-3 m-1">
+                  <div class="row">
+                    <div class="col-11 col-sm-5">
+                      <div class="d-flex">
+                        <div class="imageWrapper">
+                          <img src="./assest/image/product1.png" alt="" />
+                        </div>
+                        <div class="ml-3 product-details">
+                          <div class="mb-2">
+                            <h4 class="mb-0 productname">
+                              FAIRER COMPLEXION BLACK SOAP
+                            </h4>
+                          </div>
+                          <div class="mb-2">
+                            <p class="mb-0 productcat">Skin Care</p>
+                          </div>
+                          <div class="mb-2">
+                            <p class="mb-0 remove">Remove</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-7 d-none d-md-block">
+                      <div
+                        class="d-flex justify-content-around align-items-center"
+                      >
+                        <div class="col-4">
+                          <p class="mb-0 d-flex quality align-items-center">
+                            <button class="mr-2 control">-</button>
+                            <span class="p-1 unit">100</span>
+                            <button class="ml-2 control">+</button>
+                          </p>
+                        </div>
+                        <div class="col-4"><h4 class="price">₦ 7,000</h4></div>
+                        <div class="col-4">
+                          <h4 class="price">₦ 700,000</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card h-100 mb-3">
+                <!-- <div class="card-header">Header</div> -->
+                <div class="card-body p-3 m-1">
+                  <div class="row">
+                    <div class="col-11 col-sm-5">
+                      <div class="d-flex">
+                        <div class="imageWrapper">
+                          <img src="./assest/image/product2.png" alt="" />
+                        </div>
+                        <div class="ml-3 product-details">
+                          <div class="mb-2">
+                            <h4 class="mb-0 productname">COFFEE SCRUB</h4>
+                          </div>
+                          <div class="mb-2">
+                            <p class="mb-0 productcat">Skin Care</p>
+                          </div>
+                          <div class="mb-2">
+                            <p class="mb-0 remove">Remove</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-7 d-none d-md-block">
+                      <div
+                        class="d-flex justify-content-around align-items-center"
+                      >
+                        <div class="col-4">
+                          <p class="mb-0 d-flex quality align-items-center">
+                            <button class="mr-2 control">-</button>
+                            <span class="p-1 unit">100</span>
+                            <button class="ml-2 control">+</button>
+                          </p>
+                        </div>
+                        <div class="col-4"><h4 class="price">₦ 7,000</h4></div>
+                        <div class="col-4">
+                          <h4 class="price">₦ 700,000</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="table-responsive">
+              <table class="table table-borderless">
+                <thead>
+                  <tr class="HEADER">
+                    <th scope="col">PRODUCT DETAILS</th>
+                    <th scope="col">QUANTITY</th>
+                    <th scope="col">PRICE</th>
+                    <th scope="col">TOTAL</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    
+                  <tr class="wrapper mb-3">
+                      
+                    <th>
+                        <div class="d-flex">
+                            <div class="ImageWrapper">
+                                <img src="./assest/image/product.png" alt="" />
+                              </div>
+                              <div class="ml-3 d-flex flex-column justify-content-between">
+                                <h5 class="mb-0 productname">YARNYA</h5>
+                                <p class="mb-0 productcat">Skin Care</p>
+                                <p class="mb-0 remove">Remove</p>
+                              </div>
+                        </div>
+                     
+                    </th>
+                    <td> <p class="mb-0 d-flex  quality align-items-center"> <span class="mr-2 control">-</span> <span class=" p-1 unit ">100</span>  <span class="ml-2 control">+</span</p>
+                    </td>
+                    <td>  <h4 class="price">₦ 7,000</h4>
+                        </td>
+                    <td><h4 class="price">₦ 700,000</h4></td>
+                  </tr>
+                  <tr class="wrapper">
+                    <th>
+                        <div class="d-flex">
+                            <div class="ImageWrapper">
+                                <img src="./assest/image/product.png" alt="" />
+                              </div>
+                              <div class="ml-3 d-flex flex-column justify-content-between">
+                                <h5 class="mb-0 productname">YARNYA</h5>
+                                <p class="mb-0 productcat">Skin Care</p>
+                                <p class="mb-0 remove">Remove</p>
+                              </div>
+                        </div>
+                     
+                    </th>
+                    <td> <p class="mb-0 d-flex  quality align-items-center"> <span class="mr-2 control">-</span> <span class=" p-1 unit ">100</span>  <span class="ml-2 control">+</span</p>
+                    </td>
+                    <td>  <h4 class="price">₦ 7,000</h4>
+                        </td>
+                    <td><h4 class="price">₦ 700,000</h4></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div> -->
+              <!--  -->
+            </div>
+          </div>
+        </div>
+        <!-- sidebar -->
+        <div class="sidebar">
+          <nav class="navbar border-left mt-2 mb-3">
+            <div
+              class="w-100 d-flex justify-content-between align-items-center"
+            >
+              <h5 class="">Hello David</h5>
+              <div>
+                <div class="user">
+                  <img src="./assest/image/m header.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <div class="scroll1 my-2">
+            <div class="container">
+              <div
+                class="card mb-3 py-2"
+                style="background-color: #04544c; color: white"
+              >
+                <div class="card-body py-2">
+                  <div>
+                    <div class="n-logoWrapper mb-3">
+                      <p class="n-logo mb-0">₦</p>
+                    </div>
+                    <div>
+                      <p class="total-commission mb-2">₦10,243.00</p>
+                      <p>Total Commission</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-5 cart-singleProduct">
+                <h3 class="mb-1">Order Summary</h3>
+                <hr />
+                <div class="d-flex justify-content-between mb-3">
+                  <p>8 Items</p>
+                  <p class="font-weight-bold">₦ 2,900,000</p>
+                </div>
+                <div>
+                  <p>Maya Discount Code</p>
+                </div>
+                <div class="discountinput mb-5">
+                  <div class="d-flex align-items-center">
+                    <input type="text" />
+                    <button>Apply</button>
+                  </div>
+                </div>
+                <hr />
+                <div class="total">
+                  <div class="d-flex justify-content-between mb-2">
+                    <h5>Sub Total</h5>
+                    <h5 class="font-weight-bold">₦ 2,910,000</h5>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <h5>Discount (30%)</h5>
+                    <h5 class="font-weight-bold">-₦ 1,473,000</h5>
+                  </div>
+                  <div class="d-flex justify-content-start">
+                    <small class="mb-0 font-weight-bold">Not Active</small>
+                  </div>
+                  <hr />
+                  <div>
+                    <div class="d-flex justify-content-between mb-3">
+                      <h4>Total</h4>
+                      <h4>-₦ 2,910,000</h4>
+                    </div>
+                    <div class="mb-3">
+                      <button>CHECKOUT</button>
+                    </div>
+                    <div class="text-center">
+                      <small><- Contiune Shopping</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://use.fontawesome.com/8ccf171ea1.js"></script>
+  </body>
+</html>

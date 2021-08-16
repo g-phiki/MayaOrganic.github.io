@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("/fonts/Circular\ Std\ Font.otf");
+}
+body {
+  /* font-family: "Nunito", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Mulish", sans-serif;
+  /* font-family: myFirstFont; */
+  /* font-size: ; */
+}
+.option {
+  flex: 1;
+}
+.showpage {
+  flex: 3;
+}
+
+.profileImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageWrapper {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.button-primary {
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+  background: #04544c;
+  color: white;
+  border-radius: 5px;
+}
+
+.size {
+  width: 100%;
+}
+
+.btn-large {
+  padding: 15px;
+}
