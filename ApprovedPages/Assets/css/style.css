@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+textarea:hover,
+input:focus,
+select:focus,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: none !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+a {
+  color: #04544c;
+  font-weight: 600;
+}
+p {
+  font-size: 16px;
+  font-weight: 600;
+}
+label {
+  font-size: 18px;
+  font-weight: 500;
+}
+.info-color {
+  color: #000;
+  opacity: 0.5;
+}
+.underline {
+  text-decoration: underline;
+}
+
+h1 {
+  font-weight: 700;
+}
+/* navbar */
+.navbar-nav li {
+  padding: 0 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-toggler {
+  background: #04544c !important;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  text-transform: uppercase;
+}
+.navbar-collapse a {
+  /* text-transform: uppercase; */
+}
+
+nav .fas {
+  font-size: 25px;
+}
+/* sign in page */
+.box {
+  /* display: flex; */
+  /* justify-content: center;
+    align-items: center; */
+  margin: 0 auto;
+
+  /* width: 50%; */
+}
+.login {
+  background: url("../Images/pngwing\ 11.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+.box input {
+  padding: 20px 40px 20px 20px;
+  /* border: 1px solid #04544c; */
+  outline: none;
+}
+.btn {
+  width: 100%;
+}
+.btn-md {
+  padding: 10px 0;
+
+  font-size: 21px;
+  font-weight: 700;
+}
+.btn-primary {
+  background: #04544c !important;
+  border: 1px solid #04544c !important;
+  outline: none;
+}
+.fa-eye {
+  position: absolute;
+  right: 15px;
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 560px;
+  }
+  .navbar-nav a {
+    color: white !important;
+  }
+  .navbar-collapse {
+    background: #04544c;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 520px;
+  }
+}
