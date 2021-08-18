@@ -32,9 +32,37 @@ p {
   font-size: 16px;
   font-weight: 600;
 }
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
 label {
   font-size: 18px;
   font-weight: 500;
+}
+.primary-bg {
+  background: #04544c;
+}
+.btn-white {
+  color: #fff !important;
+}
+.secondary-bg {
+  background: #dddddd;
+}
+.btn {
+  width: 100%;
+}
+.btn-md {
+  padding: 10px 0;
+
+  font-size: 21px;
+  font-weight: 700;
+}
+.btn-primary {
+  background: #04544c !important;
+  border: 1px solid #04544c !important;
+  outline: none;
 }
 .info-color {
   color: #000;
@@ -91,32 +119,29 @@ nav .fas {
   /* border: 1px solid #04544c; */
   outline: none;
 }
-.btn {
-  width: 100%;
-}
-.btn-md {
-  padding: 10px 0;
 
-  font-size: 21px;
-  font-weight: 700;
-}
-.btn-primary {
-  background: #04544c !important;
-  border: 1px solid #04544c !important;
-  outline: none;
-}
 .fa-eye {
   position: absolute;
   right: 15px;
 }
+/*  */
+.selectplan {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.selectplan p {
+  font-size: 14px;
+  font-family: "Nunito", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* line-height: 30px; */
+}
 @media (min-width: 992px) {
-  .container {
+  .login .container {
     max-width: 560px;
   }
 }
 
 @media (max-width: 991px) {
-  .container {
+  .login .container {
     max-width: 560px;
   }
   .navbar-nav a {
@@ -128,7 +153,7 @@ nav .fas {
 }
 
 @media (max-width: 768px) {
-  .container {
+  .login .container {
     max-width: 520px;
   }
 }
