@@ -48,7 +48,7 @@ label {
   color: #fff !important;
 }
 .secondary-bg {
-  background: #dddddd;
+  background: #ddddddb0;
 }
 .btn {
   width: 100%;
@@ -63,6 +63,10 @@ label {
   background: #04544c !important;
   border: 1px solid #04544c !important;
   outline: none;
+}
+.btn-secondary {
+  background: #6c757d2c !important;
+  border: 1px solid #6c757d2c !important;
 }
 .info-color {
   color: #000;
@@ -127,12 +131,30 @@ nav .fas {
 /*  */
 .selectplan {
   margin-top: 10rem;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 .selectplan p {
   font-size: 14px;
   font-family: "Nunito", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* line-height: 30px; */
+}
+.selectplan .row {
+  border-radius: 15px !important;
+  overflow: hidden;
+}
+/* sign up */
+.selectplan1 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.selectplan1 input {
+  border: none;
+  border-bottom: 2px solid #00000026;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media (min-width: 992px) {
   .login .container {
@@ -155,5 +177,18 @@ nav .fas {
 @media (max-width: 768px) {
   .login .container {
     max-width: 520px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 14px;
+  }
+  label {
+    font-size: 16px;
+  }
+  .btn-md {
+    font-size: 18px;
+    font-weight: 700;
   }
 }
