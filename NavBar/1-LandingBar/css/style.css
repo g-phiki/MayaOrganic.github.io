@@ -1,0 +1,45 @@
+body {font-family: 'Nunito';}
+a, a:hover, a:active {
+	text-decoration: none;
+    color: white;
+    cursor: pointer;}
+.bar {
+    padding-top: 10px;
+    height: 55px;
+    width: 1380px;
+    background: #E5E5E5;}
+img {
+    margin-left: 70px;
+    height: 35px;}
+nav {
+    color: white;
+	background: #0C5C4C;
+    border-radius: 3px;}
+ul {
+    background: #0C5C4C;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0px;
+    list-style: none;
+    position: absolute;
+    top: 12px;
+    right: 70px;}
+li:not(:nth-child(1)) {display: none;}
+.topnav:hover li {display: block;}
+.topnav:active .dropdownIcon {display: none;}
+
+
+
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 425px) {
+    ul {right: 30px;}
+    img {margin-left: 30px;}
+}
+@media screen and (max-width: 414px) {}
+@media screen and (max-width: 411px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) {}
+@media screen and (max-width: 320px) {}
+   

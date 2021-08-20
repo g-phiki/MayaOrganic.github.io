@@ -1,0 +1,65 @@
+body {font-family: 'Nunito';}
+a, a:hover, a:active {
+	text-decoration: none;
+    color: black;
+    cursor: pointer;}
+nav {
+    margin-top: 150px;
+    padding-top: 10px;
+    height: 65px;
+    width: 1380px;
+    background: #E5E5E5;}
+img.first {
+    margin-right: 20px;
+    margin-left: 70px;
+    height: 45px;}
+.li {
+    color: grey;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 50px;}
+a.icon {display: none;}
+a.middle {
+    color: #04544C;
+    text-decoration-line: underline;
+    margin-left: 100px;}
+a.right {
+    margin-right: 40px;
+    margin-left: 240px;}
+p {
+    color: #04544C;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-top: 15px;}
+img.last {
+    height: 45px;
+    margin-left: 40px;}
+
+
+
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 425px) {
+  nav {
+      height: 55px;
+      width: 320px;}
+  img.first {
+      margin-left: 40px;
+      height: 35px;}
+  a.icon {
+      border-radius: 3px;
+      padding: 4px;
+      margin-top: 5px;
+      margin-left: 130px;
+      background: #04544C;
+      height: 32px;
+      display: block;}
+  .li, .ul {display: none;}
+}
+@media screen and (max-width: 414px) {}
+@media screen and (max-width: 411px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) {}
+@media screen and (max-width: 320px) {}
+   
